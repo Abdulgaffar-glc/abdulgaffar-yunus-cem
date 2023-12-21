@@ -4,7 +4,7 @@ void matris_top(int *adr1,int *adr2){
     int toplam[2][3];
     for (int i = 0; i < 2; ++i) {
         for (int j = 0; j < 3; ++j) {
-            printf("%d,",toplam [i][j]= *(adr1+i+j)+*(adr2+i+j));
+            printf("%d,",toplam [i][j]= *(adr1+i*3+j)+*(adr2+i*3+j));
 
         }
 
